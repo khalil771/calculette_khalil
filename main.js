@@ -26,7 +26,6 @@ let rec3 = document.createElement("div")
 divcalc.insertAdjacentElement("afterbegin", rec3)
 rec3.id="rec3"
 
-
 let rec4 = document.createElement("div")
 divcalc.insertAdjacentElement("afterbegin", rec4)
 rec4.id ="rec4"
@@ -36,9 +35,6 @@ let para = document.createElement("p")
 divcalc.insertAdjacentElement("afterbegin",divaff)
 divaff.id = "divaff"
 divaff.insertAdjacentElement("afterbegin",para)
-//let recaffiche = document.createElement("input")
-//recaffiche.id = "recaffiche"
-//divcalc.insertAdjacentElement("afterbegin",recaffiche)
 
 // les operateurs
 
@@ -65,14 +61,7 @@ let egale = document.createElement("button")
 egale.innerText = "="
 rec0.insertAdjacentElement("afterbegin",egale)
 
-
-
 // les button(chiifre)
-
-
-
-
-
 
 let chiffre8 = document.createElement("button")
 rec1.insertAdjacentElement("afterbegin", chiffre8)
@@ -202,15 +191,7 @@ egale.addEventListener("click",function(){
     reponse = parseInt(valeur1) * parseInt(para.innerText)
     para.innerText = reponse 
     }
-
 })
-
-
-
-
-
-// creation des operateurs 
-// mise en forme 
-// ajout des element dans ma div cntainer
-//divcalc.innerHTML = rec1 + rec2 + rec3 + rec0
-//let tableau = [chiffre0 , chiffre1, chiffre2, chiffre3, chiffre4, chiffre5,chiffre6, chiffre7, chiffre8, chiffre9]
+effacer.addEventListener("click",function(){
+    para.innerText = ""
+})
