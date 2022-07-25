@@ -1,0 +1,60 @@
+#divv{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#divcalc{
+    background-color: rgba(24,7,17,255);
+    height: 500px;
+    width: 35%;
+    border-radius: 20%;
+    
+}
+#rec1{
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+#rec2{
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+#rec3{
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+#rec4{
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+
+#rec0{
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+
+button{
+    width: 90px;
+    height: 50px;
+    border-radius: 25%;
+    background-color: gray;
+    border-color: blue;
+    
+}
+
+#divaff {
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    margin: auto;
+}
